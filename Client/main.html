@@ -1,0 +1,100 @@
+
+  <div class="theme-showcase main-font" role="main">
+    <div class="container">
+      <div class="row" >
+          <div class="col-md-3" ng-show="login" ></div>
+          <div class="col-md-7" id="main-icon" >
+            <p>Everyone can make computer program</p>
+            <img src="../images/mainImages/pc.png" width="150" >
+          </div>
+
+          <form name="loginForm" novalidate ng-show="!login">
+            <div class=" col-md-5" id="main-login" >
+                  <div class="panel panel-login">
+                    <div class="panel-heading">
+                      <div class="row">
+                        <div class=" col-xs-6">
+                          <div class="btn" ng-class="{'selected': checkStudent == true}" name="checkStudentvalue" ng-click="onSelectUserType()">학생</div>
+                        </div>
+                        <div class="col-xs-6 ">
+                          <div class="btn" ng-class="{'selected': checkStudent == false}" name="checkStudentvalue" ng-click="onSelectUserType()">훈련교사</div>
+                        </div>
+                      </div>
+                      <hr>
+                    </div>
+
+                    <div class="panel-body">
+                      <form role="form" style="display: block;">
+                        <div class="col-xs-12">
+                          <div class="form-box">
+                            <input type="text" id="form-email" placeholder="e-mail" required autofocus ng-model="memberID">
+                            <input type="password" id="form-password" placeholder="password" aria-describedby="basic-password" required ng-model="password">
+                            <input type="text" class="form-control" id="form-username" placeholder="username" aria-describedby="basic-username" disabled>
+                          </div>
+                        </div>
+
+                        <div class="col-xs-offset-2 col-xs-8">
+                          <button ng-click="checkLogin()" class="btn btn-block login-buttons" id="button-sign-in" ng-disabled="loginForm.$invalid">Sign in</button>
+                        </div>
+                        <div class="col-xs-offset-2 col-xs-8 ">
+                          <button class="btn btn-block login-buttons" id="button-sign-up"onclick="location.href='#/members'" >Sign up</button>
+                        </div>
+
+                        <div class="col-xs-12 login-bottom">
+                          <span class="vertical-b">sign in via</span> &nbsp;
+                          <a href=""><img src="../images/mainImages/facebook-square.png" width=20 /></a>&nbsp;
+                          <a href=""><img src="../images/mainImages/google-icon.png" width=30 /></a>
+                        </div>
+                          </form>
+                    </div>
+                  </div>
+            </div>
+          </form>
+        </div>
+      </div>
+
+
+
+    <div class="row" id="main-middle-section">
+      <div class="col-md-6" >
+        <h1>CodeEnjoy can help you</h1>
+        <p >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      </div>
+      <div class="col-md-6">
+        <div class="embed-responsive embed-responsive-16by9">
+          <video class="embed-responsive-item" src="mov/architecture.mp4" controls loop="loop"></video>
+          <!--<video class="embed-responsive-item" src="mov/architecture.mp4" autoplay loop="loop"></video>-->
+        </div>
+      </div>
+    </div>
+
+    <div class="container" id="main-middle-section2">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="panel panel-default">
+            <div class="panel-body"> (과정체계도)</div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="panel panel-default">
+            <div class="panel-body"> (연혁, 인사말, 개요)</div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="panel panel-default">
+            <div class="panel-body">(기획 및 콘텐츠)</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="main-bottom-section">
+        <p >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <div>
+          <img src="images/mainImages/sitemap.gif">
+        </div>
+    </div>
+
+  </div> <!-- /container -->
+</div>
+

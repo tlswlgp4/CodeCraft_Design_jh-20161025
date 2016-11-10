@@ -1,0 +1,630 @@
+@import url('https://fonts.googleapis.com/css?family=Bungee+Inline|Righteous|Armata');
+
+body{
+    font-family: 'Armata', sans-serif;
+}
+/*---------------------------------include.html------------------------------------------------*/
+/*.navbar-gray{*/
+    /*background-color: #495057;*/
+/*}*/
+/*.navbar-gray:hover{*/
+    /*background-color: #495057 !important;*/
+/*}*/
+/*.nav-li-margin a:hover{*/
+    /*background-color: #495057 !important;*/
+    /*font-weight: bold;*/
+/*}*/
+/*.nav-li-margin .glyphicon{*/
+    /*color: white;*/
+/*}*/
+/*.navbar-right a:hover{*/
+    /*background-color: #495057 !important;*/
+    /*font-weight: bold;*/
+/*}*/
+#nav-codecraft {
+    font-family: 'Bungee Inline', cursive;
+    color: white;
+    margin-top: 8px;
+}
+#nav-codecraft span{
+    color: orange;
+}
+.nav-selector{
+    font-family: 'Armata', sans-serif;
+    color: white;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.nav-selector:hover{
+    color: orange;
+}
+#glyphicon-margin{
+    margin-left:20px;
+}
+.nav-li-margin, #nav-login{
+    margin-top: 8px;
+}
+ul li .fa{
+    margin-top: 8px;
+    font-size:20px;
+    color:orange;
+}
+/*---------------------------------ㅡmain.html------------------------------------------------*/
+#main-icon{
+    text-align: center;
+    margin-top: 150px;
+}
+#main-icon p
+{
+    color: #495057;
+    font-size: 28px;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
+#main-icon img{
+    margin-bottom: 100px;
+}
+#main-login{
+    margin-top: 200px;
+    margin-bottom: 100px;
+}
+#main-middle-section{
+    margin-top: 140px;
+    background-color: #eeeeee;
+    padding: 150px;
+}
+#main-middle-section div{
+    text-align: center;
+}
+#main-middle-section div h1{
+    text-align: left;
+    margin-left: 100px;
+    margin-bottom: 40px;
+}
+#main-middle-section div p{
+    text-align: left;
+    margin-left: 100px;
+}
+#main-middle-section2{
+    margin-top: 100px;
+}
+#main-middle-section2 .panel{
+    height: 400px;
+    text-align: center;
+}
+#main-middle-section2 .panel:hover{
+    background-color: #eeeeee;
+}
+.main-bottom-section{
+    margin-top: 100px;
+    background-color: #eeeeee;
+}
+.main-bottom-section p{
+    padding-top: 100px;
+    margin-left: 110px;
+    margin-right: 110px;
+}
+.main-bottom-section div{
+    margin-top: 100px;
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+
+.panel-login {
+    border-color: #ccc;
+    -webkit-box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.2);
+}
+.panel-login>.panel-heading {
+    color: #00415d;
+    background-color: #fff;
+    border-color: #fff;
+    text-align:center;
+}
+.panel-login .panel-heading .btn{
+    text-decoration: none;
+    color: #666;
+    font-weight: bold;
+    font-size: 15px;
+    -webkit-transition: all 0.1s linear;
+    -moz-transition: all 0.1s linear;
+    transition: all 0.1s linear;
+}
+.selected {
+    color: #029f5b !important;
+    font-size: 16px !important;
+}
+
+.panel-login>.panel-heading hr{
+    margin-top: 10px;
+    margin-bottom: 0px;
+    clear: both;
+    border: 0;
+    height: 1px;
+    background-image: -webkit-linear-gradient(left,rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.15),rgba(0, 0, 0, 0));
+    background-image: -moz-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,0.15),rgba(0,0,0,0));
+    background-image: -ms-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,0.15),rgba(0,0,0,0));
+    background-image: -o-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,0.15),rgba(0,0,0,0));
+}
+/*.panel-login input[type="text"],.panel-login input[type="email"],.panel-login input[type="password"] {*/
+    /*height: 45px;*/
+    /*border: 1px solid #ddd;*/
+    /*font-size: 16px;*/
+    /*-webkit-transition: all 0.1s linear;*/
+    /*-moz-transition: all 0.1s linear;*/
+    /*transition: all 0.1s linear;*/
+/*}*/
+.form-box input{
+    width: 100%;
+    padding: 10px;
+    text-align: left;
+    height:40px;
+    border: 1px solid #ccc;;
+    background: #fafafa;
+    transition:0.2s ease-in-out;
+}
+.form-box #form-email{
+    border-radius: 5px 5px 0 0;
+    border-bottom: 0;
+}
+.form-box #form-password{
+    border-radius: 0 0 0 0;
+    border-bottom: 0;
+}
+
+.form-box #form-username{
+    border-radius: 0 0 5px 5px;
+}
+.login-buttons{
+    height: 59px;
+    background-color: white;
+    border: 1px solid #868e96;
+}
+.login-buttons:hover{
+   background-color: #ced4da;
+}
+#button-sign-in{
+    margin-top: 15px;
+    margin-bottom: 0;
+    border-radius: 5px 5px 0 0;
+    border-bottom: 0;
+}
+#button-sign-up{
+    border-radius: 0 0 5px 5px;
+}
+.vertical-b{
+    vertical-align:bottom;
+}
+#button-facebook{
+    background-color: white;
+    border: 1px solid #ced4da;
+
+}
+#button-facebook .fa{
+    color:#3b5998;
+}
+#button-google{
+    background-color: white;
+    border: 1px solid #ced4da;
+
+}
+#button-google .fa{
+    color: #da573b;
+}
+.login-bottom{
+    text-align: center;
+}
+
+
+/*------------------------------------------include_subMenuBar.html---------------------------------------------------*/
+.sub-menu-bar-odd{
+    background-color:#f8f9fa;width: 80px;height: 40px; padding: 10px;
+}
+.sub-menu-bar-even{
+    background-color: #f1f3f5;width: 80px;height: 40px; padding: 10px;
+}
+.list-inline a{
+    color: #495057;
+}
+.sub-menu-bar-odd:hover{
+    background-color: #ced4da;
+}
+.sub-menu-bar-even:hover{
+    background-color: #ced4da;
+}
+/*--------------------------------------------------courses.html------------------------------------------------------*/
+.before-sign-up-courses{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: auto;
+    text-align: left;
+}
+#before-sign-up-courses-banner{
+    background-color: #f8f9fa;
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+}
+#before-sign-up-courses-banner .col-md-4 span{
+    color: orange;
+}
+.after-sign-up-courses{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: auto;
+    text-align: left;
+}
+#after-sign-up-courses-banner{
+    background-color: #f8f9fa;
+    height: auto;
+}
+#after-sign-up-courses-banner img{
+    float: left;
+    margin-left: -15px;
+}
+.after-sign-up-courses-button{
+    margin-top: -20px;
+    width: 120px;
+    height: 50px;
+    border: 2px solid #868e96;
+    background-color: white ;
+    color: #868e96;
+}
+.after-sign-up-courses-button:hover{
+    color: #868e96; !important;
+}
+.panel{
+    box-shadow: 0 1px 2px #eeeeee;
+}
+.col-sm-4 .panel:hover{
+    background-color: #ced4da;
+}
+.panel-professor-name{
+    margin-right: 5px;
+    margin-bottom: 10px;
+    text-align: right;
+    font-size: 13px;
+    color: #495057;
+    font-family: 'Armata', sans-serif;
+
+}
+.panel-subject-summary{
+    margin-left: 15px;
+    margin-right: 10px;
+    text-align: left;
+    font-family: 'Armata', sans-serif;
+    color: #495057;
+
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+    height: 76px;
+    white-space: normal;
+
+    /*word-wrap: break-word;*/
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+}
+
+.panel-body img{
+    margin-top: 30px;
+}
+.panel-start-button {
+    font-family: 'Armata', sans-serif;
+    width: 80px;
+    height: 35px;
+    border: 2px solid #868e96;
+    background-color: white;
+    color:#868e96;
+    margin-top: 10px;
+}
+.panel-start-button:hover{
+    font-size: 15px;
+    color: #868e96; !important;
+}
+.progress-bar-grey {
+    background-color: #ced4da;
+    background-image: none;
+}
+.courses-progressbar{
+    overflow:hidden;
+    margin-top:20px;
+    height:30px;
+    width:80%;
+    margin-bottom:20px;
+}
+.courses-progressbar:hover{
+    width:85%;
+}
+/*.progressbar-grey{*/
+    /*background-color: grey;*/
+/*}*/
+#panel-completed{
+    background-color: #e9ecef;
+}
+#panel-completed img{
+    opacity: 0.7;
+}
+@media screen and (min-width:990px) and (max-width: 1190px){
+    #after-sign-up-courses-banner img{
+        width: 150%;
+    }
+}
+@media screen and (min-width:850px) and (max-width: 989px){
+    #after-sign-up-courses-banner img{
+        width: 135%;
+        margin-right: 40px;
+    }
+}
+@media screen and (min-width:770px) and (max-width: 849px) {
+    #after-sign-up-courses-banner img {
+        width: 135%;
+    }
+}
+@media screen and (min-width:640px) and (max-width: 769px){
+    #after-sign-up-courses-banner img{
+        width: 100%;
+        display: none;
+        margin-left: 45%;
+    }
+    #after-sign-up-courses-banner button{
+        margin-top: 10px;
+        margin-bottom: 15px;
+        margin-left: 35%;
+    }
+}
+@media screen and (min-width:480px) and (max-width: 639px){
+    #after-sign-up-courses-banner img{
+        width: 120%;
+        display: none;
+        margin-left: 35%;
+    }
+    #after-sign-up-courses-banner button{
+        margin-top: 10px;
+        margin-bottom: 15px;
+        margin-left: 40%;
+    }
+}
+@media screen and (max-width: 479px){
+    #after-sign-up-courses-banner img{
+        width: 160%;
+        display: none;
+        margin-left: 40%;
+    }
+    #after-sign-up-courses-banner button{
+        margin-top: 10px;
+        margin-bottom: 15px;
+        margin-left: 25%;
+    }
+}
+/*------------------------------------introduceCourses_possible.html--------------------------------------------------*/
+.info-table{
+    background-color:  white;
+}
+.info-table ul{
+    list-style-type: disc;
+
+}
+.info-table ul li{
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+#course-info-table{
+    margin-top: 20px;
+}
+#course-info-table span{
+    font-size: 15px;
+    font-weight: bold;
+}
+.avatar1 {
+    display: inline-block;
+    position: relative;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    background-color: #e5e9f2;
+}
+
+.possible-button1{
+    /*float: right ;*/
+    margin-right: 30px;
+    font-family: 'Armata', sans-serif;
+    width: 110px;
+    height: 44px;
+    border: 2px solid #868e96;
+    background-color: white;
+    color:#868e96;
+    margin-bottom: 20px;
+}
+.possible-button1:hover{
+    color:white;
+    background-color: #868e96;
+}
+
+/*---------------------------------------introduceCourses_possible-unit소개-------------------------------------------*/
+.info-unit{
+    background-color: white;
+    margin-top: 50px;
+}
+.course-info-top p{
+    line-height: 25px;
+}
+
+.shape{
+    border-style: solid; border-width: 0 80px 50px 0; float:right; height: 0px; width: 0px;
+    -ms-transform:rotate(360deg); /* IE 9 */
+    -o-transform: rotate(360deg);  /* Opera 10.5 */
+    -webkit-transform:rotate(360deg); /* Safari and Chrome */
+    transform:rotate(360deg);
+}
+.shape a{
+    color: white;
+}
+.offer{
+    background:#fff;
+    border:1px solid #adb5bd;
+    /*box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); */
+    margin: 15px 0;
+    overflow:auto;
+    height: 360px;
+}
+
+.offer-radius{
+    border-radius:7px;
+}
+
+.offer-success {	border-color: #5cb85c; }
+.offer-success .shape{
+    border-color: transparent #5cb85c transparent transparent;
+}
+.offer-default {	border-color: #999999; }
+.offer-default .shape{
+    border-color: transparent #999999 transparent transparent;
+}
+.offer-primary {	border-color: #428bca; }
+.offer-primary .shape{
+    border-color: transparent #428bca transparent transparent;
+}
+
+.offer-warning {
+    border-color:#e9ecef;
+
+
+}
+.offer-warning .shape{
+    border-color: transparent #f0ad4e transparent transparent;
+}
+
+.shape-text{
+    color:#fff; font-size:12px; font-weight:bold; position:relative; right:-40px; top:2px; white-space: nowrap;
+    -ms-transform:rotate(30deg); /* IE 9 */
+    -o-transform: rotate(360deg);  /* Opera 10.5 */
+    -webkit-transform:rotate(30deg); /* Safari and Chrome */
+    transform:rotate(30deg);
+}
+.offer-content{
+    padding:0 35px 25px;
+    line-height: 25px;
+}
+/*@media (min-width: 487px) {*/
+/*#info-unit {*/
+/*max-width: 750px;*/
+/*}*/
+/*#info-unit .col-sm-6 {*/
+/*width: 50%;*/
+/*}*/
+/*}*/
+/*@media (min-width: 900px) {*/
+/*#info-unit {*/
+/*max-width: 970px;*/
+/*}*/
+/*#info-unit .col-md-4 {*/
+/*width: 33.33333333333333%;*/
+/*}*/
+/*}*/
+
+/*@media (min-width: 1200px) {*/
+/*#info-unit {*/
+/*max-width: 1170px;*/
+/*}*/
+/*#info-unit .col-lg-3 {*/
+/*width: 25%;*/
+/*}*/
+/*}*/
+
+/*-----------------------------------------introduceCourses_possible - tabs ------------------------------------------*/
+
+
+.nav-tabs {
+    border-bottom: 2px solid #DDD;
+}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover {
+    border-width: 0;
+}
+.nav-tabs > li > a {
+    border: none;
+    color: black;
+    font-size: 15px;
+}
+.nav-tabs > li.active > a, .nav-tabs > li > a:hover {
+    border: none;
+    color: black !important;
+    background: transparent;
+}
+.nav-tabs > li > a::after {
+    content: "";
+    background: orange;
+    height: 2px;
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    bottom: -1px;
+    transition: all 250ms ease 0s;
+    transform: scale(0);
+}
+.nav-tabs > li.active > a::after, .nav-tabs > li:hover > a::after {
+    transform: scale(1);
+}
+.tab-nav > li > a::after {
+    background: #21527d none repeat scroll 0% 0%; color: #fff;
+}
+.tab-pane {
+    padding: 15px 0;
+    line-height: 25px;
+}
+.tab-content{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/*.card {*/
+    /*background: #FFFFFF none repeat scroll 0% 0%;*/
+    /*box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);*/
+    /*margin-bottom: 30px;*/
+/*}*/
+
+
+
+
+/*----------------------------------introduceCourses_possible - 다른강사정보------------------------------------------*/
+.testimonials-card{
+    border-radius: 3px;
+    border: 1px solid #e0e6ed;
+    text-align: left;
+    margin-bottom: 3rem;
+
+}
+.testimonials-header{
+    padding: 2.75rem;
+    border-bottom: 1px solid #e0e6ed;
+    height: 160px;
+}
+.avatar {
+    display: inline-block;
+    position: relative;
+    float: left;
+    margin-right: 30px;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    background-color: #e5e9f2;
+}
+@media (max-width: 310px) {
+   .other-professoe-info{
+       display: none;
+   }
+    .avatar{
+        float: none;
+        margin-left: 35px;
+        width: 110px;
+        height: 110px;
+
+    }
+}

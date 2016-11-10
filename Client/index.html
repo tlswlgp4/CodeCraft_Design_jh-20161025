@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html lang="en" ng-app="codeCraft" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html lang="en" ng-app="codeCraft" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html lang="en" ng-app="codeCraft" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en" ng-app="codeCraft" class="no-js"> <!--<![endif]-->
+<head>
+
+  <title>CodeCraft Test Page</title>
+  <meta charset="utf-8"/>
+  <!--<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />-->
+
+  <link rel="stylesheet" href="./app/bower_components/bootstrap/dist/css/bootstrap.css" />
+  <link rel="stylesheet" href="./app/bower_components/bootstrap/dist/css/bootstrap-theme.css" />
+  <link rel="stylesheet" href="./app/templates/css/membersCSS.css" />
+  <link rel="stylesheet" href="./app/templates/css/login.css" />
+  <link rel="stylesheet" href="./app/templates/css/defaultCSS.css" />
+  <link rel="stylesheet" href="./app/templates/css/editorCSS.css" />
+  <link rel="stylesheet" type="text/css" href="./app/bower_components/angular-ui-grid/ui-grid.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="./app/templates/css/style.css" />
+  <link rel="stylesheet" href="./app/templates/css/helper.css" />
+  <link rel="stylesheet" href="./app/templates/css/open-color.css" />
+
+
+
+  <script src="./app/bower_components/angular/angular.js"></script>
+  <script src="./app/bower_components/html5-boilerplate/dist/js/vendor/modernizr-2.8.3.min.js"></script>
+  <script src="./app/bower_components/angular-resource/angular-resource.js"></script>
+  <script src="./app/bower_components/angular-cookies/angular-cookies.js"></script>
+  <script src="./app/bower_components/angular-route/angular-route.js"></script>
+  <script src="./app/bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="./app/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="./app/bower_components/bootstrap/dist/js/bootstrap.js"></script>
+
+  <script src="./app/bower_components/ui-bootstrap/js/ui-bootstrap-tpls-0.14.3.min.js"></script>
+
+
+
+  <script src="codeCraft.js"></script>
+  <script src="defaultCtrl.js"></script>
+  <script src="mainCtrl.js"></script>
+  <script src="./courses/coursesCtrl.js"></script>
+
+  <script src="./courses/myClassRoom/introduceCoursesCtrl.js"></script>
+  <script src="./courses/myClassRoom/introduceProfessorsCtrl.js"></script>
+
+
+
+</head>
+
+<body ng-app="codeCraft" ng-controller="defaultCtrl">
+
+  <!--header-->
+  <ng-include src="'include.html'"></ng-include>
+
+  <!--body-->
+  <div ng-view> </div>
+
+</body>
+
+
+</html>

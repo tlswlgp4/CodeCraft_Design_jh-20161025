@@ -1,0 +1,30 @@
+
+.main {
+  position:relative;
+  background:url(../images/bg/main_bg.gif) repeat-x left top;
+}
+
+.main .page-header {
+  margin-top: 0;
+}
+
+.sub-header {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.sub-sub-header {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+
+
+.divButton {
+  width:100%;
+  display:inline-block;
+  overflow: auto;
+  white-space: nowrap;
+  margin:0px auto;
+  margin-top:10px;
+}
